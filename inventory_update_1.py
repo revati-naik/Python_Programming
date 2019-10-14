@@ -1,4 +1,9 @@
-#keep on adding to inventory and displaying it in some tabular form
+#this code helps update an inventory list with two parameters
+#more parameter values can be added as per user requirement
+#it uses classes and methods to provide the correct output
+#it uses pandas module to output the table with the updated inventory list
+
+
 import pandas as pd
 items=[]		#create a list of items
 quantity=[]		#create a list of item quantity
