@@ -2,7 +2,7 @@
 #more parameter values can be added as per user requirement
 #it uses classes and methods to provide the correct output
 #it uses pandas module to output the table with the updated inventory list
-#Concepts covered: While loop, class, method, 
+#Concepts covered: pandas module, While loop, class, method, 
 
 
 import pandas as pd
