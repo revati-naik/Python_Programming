@@ -1,3 +1,6 @@
+#this code helps check if a year is a leap year or not
+#Concpets covered: Functions, if loop, logical operators 
+
 def leap_check(year):
     leap=False
     if(year>=1900 & year<=10**5):
