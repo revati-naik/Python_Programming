@@ -1,5 +1,5 @@
 #guessing the number of items to win the game
-
+#Conepts covered: random module, if loop, logical comparison operators
 import random
 
 random_number=random.randint(1,25)
