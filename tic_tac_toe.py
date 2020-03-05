@@ -62,9 +62,13 @@ while True:
 
 	# Get user input 1: X
 	user_input_x = int(input("\nX: Choose 1-9: "))
-	tic_tac_toe.update_grid(user_input_x, "X")
+	if user_input_x > 0 and user_input_x < 10:
+		tic_tac_toe.update_grid(user_input_x, "X")
+		tic_tac_toe.display_grid()
 
-	tic_tac_toe.display_grid()
+	else:
+		print("Invalid number!")
+		break
 
 	# Check if X is a winner
 	if tic_tac_toe.is_winner("X"):
@@ -73,7 +77,13 @@ while True:
 
 	# Get user input 1: Y
 	user_input_y = int(input("\nO: Choose 1-9: "))
-	tic_tac_toe.update_grid(user_input_y, "O")
+	if user_input_y > 0 and user_input_y < 10:
+		tic_tac_toe.update_grid(user_input_y, "Y")
+		tic_tac_toe.display_grid()
+
+	else:
+		print("Invalid number!")
+		break
 
 	# Check if Y is a winner
 	if tic_tac_toe.is_winner("Y"):
