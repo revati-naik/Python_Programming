@@ -1,30 +1,27 @@
-import sys
-import numpy as np 
-import cv2 
 import TicTacToe
 
-#
-# Header function for the game to dispaly the initial empty grid
-#
-# :type       tic_tac_toe:  class instance
-# :param      tic_tac_toe:  class instance passed to use the class method in the function
-#
+##
+## Header function for the game to dispaly the initial empty grid
+##
+## :type       tic_tac_toe:  class instance
+## :param      tic_tac_toe:  class instance passed to use the class method in the function
+##
 def startGame(tic_tac_toe):
 	print("\nWelcome to TIC-TAC-TOE\n")
 	tic_tac_toe.displayGrid()
 
-#
-# Main function written to run the game which takes either user inputs or default inputs or unittest
-# inputs depending on where the function is called
-#
-# :type       test_case:  list
-# :param      test_case:  The test cases which is a list of multiple sublists for default test and
-#                         unittest. It is None for user inputs
-#
-# :returns:   Returns the result of the game. "True" for a win of the player (X or Y). Else "False".
-#             Or "draw" in case
-# :rtype:     string
-#
+##
+## Main function written to run the game which takes either user inputs or default inputs or unittest
+## inputs depending on where the function is called
+##
+## :type       test_case:  list
+## :param      test_case:  The test cases which is a list of multiple sublists for default test and
+##                         unittest. It is None for user inputs
+##
+## :returns:   Returns the result of the game. "True" for a win of the player (X or Y). Else "False".
+##             Or "draw" in case
+## :rtype:     string
+##
 def run_code(test_case):
 	result = None 
 	i = 0
