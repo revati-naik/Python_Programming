@@ -37,11 +37,11 @@ The code even throws an error if the input is a grid number which is already occ
 
 2. TicTacToe.py: 
 
-    This is a class file which defines the class TicTacToe which consists of various class methods used to play the game.
+    This is a class file which defines the class TicTacToe which consists of various methods used to play the game.
     
 3. defaulttest.py: 
 
-    This file consists of few default cases to test the functionality of the code. It checks for the win conditions for both "X" and "O" along 3 rows, 3 columns and both the diagonals. It also checks for the "draw" condition. 
+    This file consists of all the test cases to test the functionality of the code. It checks for the win conditions for both "X" and "O" along 3 rows, 3 columns and both the diagonals. It also checks for the "draw" condition. This file also tests the behavior of the program in case of execptions and writes the output for every test case in a txt file. 
     
 4. unittest.py:
 
@@ -50,16 +50,21 @@ The code even throws an error if the input is a grid number which is already occ
 
 ## **Dependencies:**
 
-1. __numpy__:  Install numpy pacakge from python3 using the following command on the terminal `pip install numpy`
 
-2. __cv2__:  Install cv2 pacakge from python3 using the following command on the terminal `pip install cv2`
+The project does not have any dependencies.  
 
-3. __sys__:  Install sys pacakge from python3 using the following command on the terminal `pip install sys`
+ The only extra modules used is `unittest` to run the unit test cases
+
+ 
+
+ 
 
 
 ## **Running the Code:**
 
-1. For letting two players play the game, run the following command on your terminal `python3 main.py`
+1. For letting two players play the game, run the following command on your terminal
+
+     `python3 main.py`
 
     It will ask for user input from alternate players. 
 
@@ -67,8 +72,12 @@ The code even throws an error if the input is a grid number which is already occ
 
     `Y: Choose 1-9: `
 
-2. For running the default test cases, run the following command on your terminal `python3 defaulttest.py`
+2. For running the default test cases, run the following command on your terminal
 
-3. For runnign the unittest, run the following command on your terminal `python3 unittest.py`
+     `python3 defaulttest.py`
+
+3. For runnign the unittest, run the following command on your terminal
+
+     `python3 unittest.py`
 
 ## **HAPPY PLAYING!!!!**

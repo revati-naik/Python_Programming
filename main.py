@@ -8,7 +8,7 @@ import TicTacToe
 ##
 def startGame(tic_tac_toe):
 	print("\nWelcome to TIC-TAC-TOE\n")
-	tic_tac_toe.displayGrid()
+	# tic_tac_toe.displayGrid()
 
 ##
 ## Main function written to run the game which takes either user inputs or default inputs or unittest
@@ -22,7 +22,7 @@ def startGame(tic_tac_toe):
 ##             Or "draw" in case
 ## :rtype:     string
 ##
-def run_code(test_case):
+def run_code(tic_tac_toe, test_case):
 	result = None 
 	i = 0
 
@@ -117,11 +117,11 @@ def run_code(test_case):
 		print("Next Move\n")
 	return result
 
-tic_tac_toe = TicTacToe.TicTacToe()
 
 def main():
+	tic_tac_toe = TicTacToe.TicTacToe()
 	startGame(tic_tac_toe)
-	run_code(None)	
+	run_code(tic_tac_toe, None)	
 	
 
 if __name__ == '__main__':
